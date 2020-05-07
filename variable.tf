@@ -4,7 +4,7 @@ variable "vpc1_cidr" {
 
 variable "pub_sub_cidr1" {
     type = "list"
-    default = ["198.1.0.0/24","198.2.0.0/24","198.3.0.0/24"]  
+    default = ["198.1.0.0/24","198.2.0.0/24","198.3.0.0/24"],"198.4.0.0/24"  
 }
 variable "azs_vpc1" {
     type = "list"
