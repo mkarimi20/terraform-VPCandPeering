@@ -6,7 +6,7 @@ resource "aws_subnet" "pub_subnets_vpc1" {
   
 
   tags = {
-    Name = "subnet-${count.index+1"
+    Name = "subnet-${count.index+1}"
   }
 }
 
