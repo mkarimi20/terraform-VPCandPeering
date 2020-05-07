@@ -1,4 +1,4 @@
-variable "vpc2_cidr" {
+variable "vpc1_cidr" {
     default = "198.0.0.0/16"
 }
 
